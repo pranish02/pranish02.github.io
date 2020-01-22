@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: sans-serif;
+      }
+
+      .header,
+      .footer {
+        background-color: black;
+        color: white;
+        padding: 15px;
+      }
+
+      .column {
+        float: left;
+        padding: 15px;
+      }
+
+      .column img {
+        float: right;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .menu {
+        width: 20%;
+      }
+
+      .content {
+        width: 70%;
+        float: right;
+      }
+
+      .more {
+        float: right;
+      }
+
+      .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .menu li {
+        padding: 8px;
+        margin-bottom: 8px;
+        background-color: black;
+        color: red;
+      }
+
+      .menu li:hover {
+        background-color: red;
+        color: white;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      a:hover {
+        text-decoration: none;
+        color: black;
+      }
+
+      a:active {
+        text-decoration: none;
+        color: blue;
+
+    </style>
+  </head>
+
+  <body>
+    <div class="header">
+      <img src="https://karmveertoor.github.io/images/experiencves.png">
+    </div>
+    <div class="clearfix">
+      <div class="column menu">
+        <ul>
+          <li><a href="https://karmveertoor.github.io/electronic_portfolio_home.html">Home</a>
+            <li><a href="https://karmveertoor.github.io/electronic_portfolio_contact.html">Contact Me</a>
+              <li><a href="https://karmveertoor.github.io/electronic_portfolio_academic_history.html">Academic History</a>
+                <li><a href="https://karmveertoor.github.io/electronic_portfolio_accomplishments.html">Accomplishments</a>
+        </ul>
+      </div>
+      <div class="column content">
+        <p>
+          I started my work experience at a small start-up called "Curry In A Hurry". It was an Indian food delivery service which was completely online based. We sold our company to Microsoft for a six figure contract. I went on to work at AMD helping them with
+          their Ryzen CPU. Today I still work at AMD working with them to release the new CPUs.
+        </p>
+        <img src="http://developer.amd.com/wordpress/media/2013/12/53863A_AMD_E_Blk_RGB.png" height="100px" width="200px">
+      </div>
+    </div>
+    <div class="footer">
+      <p>Posted by: Karmveer Toor</p>
+    </div>
+  </body>
+
+</html>
